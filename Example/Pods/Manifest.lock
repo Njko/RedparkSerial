@@ -1,0 +1,14 @@
+PODS:
+  - RedparkSerial (0.1.0)
+
+DEPENDENCIES:
+  - RedparkSerial (from `../`)
+
+EXTERNAL SOURCES:
+  RedparkSerial:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RedparkSerial: 1c337b8359694d301bfd3c4e970a22cd67fc6778
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module RedparkSerial {
+  umbrella header "RedparkSerial-umbrella.h"
+
+  export *
+  module * { export * }
+}

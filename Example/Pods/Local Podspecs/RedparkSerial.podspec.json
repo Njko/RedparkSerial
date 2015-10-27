@@ -1,0 +1,25 @@
+{
+  "name": "RedparkSerial",
+  "version": "0.1.0",
+  "summary": "A short description of RedparkSerial.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/RedparkSerial",
+  "license": "MIT",
+  "authors": {
+    "nicolas.linard": "nicolas.linard@valtech.fr"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/RedparkSerial.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "RedparkSerial": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
