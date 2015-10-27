@@ -34,6 +34,7 @@ s.author           = { "Nicolas Linard" => "nicolas.linard@valtech.fr" , "Yann L
   }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
+  s.ios.vendored_library = '**/libRscMgrUniv.a'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
