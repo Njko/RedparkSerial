@@ -18,9 +18,9 @@
 		E695EE0C1BDFE3E100F37C4D /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E695EE091BDFE3E100F37C4D /* redparkSerial.h */; settings = {ASSET_TAGS = (); }; };
 		E695EE0D1BDFE3E100F37C4D /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E695EE0A1BDFE3E100F37C4D /* RscMgr.h */; settings = {ASSET_TAGS = (); }; };
 		E695EE0E1BDFE3E100F37C4D /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E695EE0A1BDFE3E100F37C4D /* RscMgr.h */; settings = {ASSET_TAGS = (); }; };
-		E695EE101BDFE3F600F37C4D /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E695EE0F1BDFE3F600F37C4D /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
-		E695EE111BDFE3F600F37C4D /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E695EE0F1BDFE3F600F37C4D /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
-		E695EE121BDFE3F600F37C4D /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E695EE0F1BDFE3F600F37C4D /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
+		E695EE3E1BE0D0F400F37C4D /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E695EE3D1BE0D0F400F37C4D /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
+		E695EE3F1BE0D0F400F37C4D /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E695EE3D1BE0D0F400F37C4D /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
+		E695EE401BE0D0F400F37C4D /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E695EE3D1BE0D0F400F37C4D /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 		DD80D040AFA831955FB171D3ED30841B /* Pods-RedparkSerial_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedparkSerial_Tests-resources.sh"; sourceTree = "<group>"; };
 		E695EE091BDFE3E100F37C4D /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
 		E695EE0A1BDFE3E100F37C4D /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
-		E695EE0F1BDFE3F600F37C4D /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		E695EE3D1BE0D0F400F37C4D /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRscMgrUniv.a; path = Libs/libRscMgrUniv.a; sourceTree = "<group>"; };
 		EE09F89FD935F54024B81A088340E030 /* RedparkSerial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RedparkSerial.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,7 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BC7B80C395612A90BDBD81C215E9D8 /* Foundation.framework in Frameworks */,
-				E695EE101BDFE3F600F37C4D /* libRscMgrUniv.a in Frameworks */,
+				E695EE3E1BE0D0F400F37C4D /* libRscMgrUniv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E695EE121BDFE3F600F37C4D /* libRscMgrUniv.a in Frameworks */,
+				E695EE401BE0D0F400F37C4D /* libRscMgrUniv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C17C10B0E8691E23354CE76B558F45 /* Foundation.framework in Frameworks */,
-				E695EE111BDFE3F600F37C4D /* libRscMgrUniv.a in Frameworks */,
+				E695EE3F1BE0D0F400F37C4D /* libRscMgrUniv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +116,7 @@
 		7089EE70DF4797E9C2235786F3349B80 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				E695EE3C1BE0D0D900F37C4D /* Libs */,
 				A75B9BB9D779A1B620D4053D5047EE4D /* Classes */,
 			);
 			path = Pod;
@@ -178,7 +179,6 @@
 		C3DC001459FC4C0AA745E8E7B04504F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E695EE0F1BDFE3F600F37C4D /* libRscMgrUniv.a */,
 				926820EE793DC94EEB26913F21162732 /* Info.plist */,
 				EE09F89FD935F54024B81A088340E030 /* RedparkSerial.modulemap */,
 				8BAADCB5C0796EE5D168D71A979B871F /* RedparkSerial.xcconfig */,
@@ -208,6 +208,14 @@
 			);
 			name = RedparkSerial;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		E695EE3C1BE0D0D900F37C4D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				E695EE3D1BE0D0F400F37C4D /* libRscMgrUniv.a */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,13 +472,11 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RedparkSerial_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Target",
-					Support,
-					Files/RedparkSerial,
+					"$(PROJECT_DIR)/Pod/Libs",
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RedparkSerial_Tests/Pods-RedparkSerial_Tests.modulemap";
@@ -501,13 +507,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RedparkSerial/RedparkSerial-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RedparkSerial/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Target",
-					Support,
-					Files/RedparkSerial,
+					"$(PROJECT_DIR)/../../Pod/Libs",
 				);
 				MODULEMAP_FILE = "Target Support Files/RedparkSerial/RedparkSerial.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -569,13 +573,11 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RedparkSerial_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Target",
-					Support,
-					Files/RedparkSerial,
+					"$(PROJECT_DIR)/Pod/Libs",
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RedparkSerial_Tests/Pods-RedparkSerial_Tests.modulemap";
@@ -606,13 +608,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RedparkSerial/RedparkSerial-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RedparkSerial/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Target",
-					Support,
-					Files/RedparkSerial,
+					"$(PROJECT_DIR)/../../Pod/Libs",
 				);
 				MODULEMAP_FILE = "Target Support Files/RedparkSerial/RedparkSerial.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
